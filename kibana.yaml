@@ -46,7 +46,7 @@ spec:
     spec:
       containers:
       - name: kibana
-        image: 172.16.1.170/base-image/kibana-oss:6.4.3
+        image: lvsir625/kibana-oss:6.4.3
         resources:
           limits:
             cpu: 1000m
