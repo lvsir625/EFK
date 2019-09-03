@@ -70,7 +70,7 @@ spec:
       serviceAccountName: fluentd-es
       containers:
       - name: fluentd-es
-        image: 172.16.1.170/base-image/fluentd-elasticsearch:v2.0.4 
+        image: lvsir625/fluentd-elasticsearch:v2.0.4 
         env:
         - name: FLUENTD_ARGS
           value: --no-supervisor -q
